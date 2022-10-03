@@ -1,0 +1,56 @@
+.rate{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    /* margin-right:auto; */
+    cursor: pointer;
+
+}
+
+.rate--img{
+    display: flex;
+    /* padding-left: 15px; */
+    justify-content:space-around;
+    align-items:center;
+}
+
+.rate--logo{
+    object-fit: contain;
+    width:11%;
+    /* margin-left: -6px; */
+    flex:0.1;
+}
+
+.rate--description{
+    flex : 0.7;
+    margin-right:auto;
+}
+
+.rate--forexname{
+    font-weight: 700;
+    font-size:0.8rem;
+}
+
+.rate--abbrev{
+    font-size:0.6rem; 
+}
+
+.rate--money{
+  
+}
+
+.rate--amount{
+    font-weight: 700;
+    font-size:0.8rem; 
+}
+
+.rate--percent{
+    font-size:0.7rem; 
+    font-weight: 400; 
+    color:rgb(52, 233, 52); 
+}
+
+.arrow--icon{
+    margin-bottom: 0;
+
+}

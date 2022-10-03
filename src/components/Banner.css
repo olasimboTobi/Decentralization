@@ -1,0 +1,135 @@
+.banner {
+    height:7vh;
+    position : relative;
+
+}
+
+.banner--scroll, .banner--static{
+    display: flex;
+    /* border-bottom: 1px solid rgb(242, 235, 235); */
+    border-top: 1px solid rgb(247, 241, 241);
+}
+.logo-picture{
+    object-fit: contain;
+    height: 30vh;
+    width: 30px;
+}
+.powered{
+    font-size: .7rem;
+    color: #808A9D;
+    margin-top: .5rem;
+    margin-bottom: .3rem;
+}
+.banner--powered{
+    position : absolute;
+    font-style: italic;
+    color: gold;
+    z-index: 100;
+    padding-right: 55px;
+    height: 89%;
+    background-color:white;
+
+}
+
+.banner--scroll > .ticker{
+    height : fit-content;
+    margin-left: 150px;
+    border-left: 1px solid rgb(247, 241, 241);
+    width:100%;
+    /* animation: infinite */
+    
+}
+
+/* .ticker div{
+    animation: ticker 8s linear infinite;
+} */
+
+
+/* @keyframes ticker {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }  */
+
+  /* .ticker {
+    animation-play-state: running;
+    animation: ticker 2s linear infinite;
+  }  */
+
+  /* .ticker:hover {
+    animation-play-state: paused;
+  }  */
+
+.banner--scroll div{
+    padding-top:1.5px;
+    padding-left: 7px;
+    padding-bottom:1.5px;
+}  
+
+
+.banner--static{
+    border-left: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.banner{
+    width: device-width;
+    background-color:white;
+    height:16vh;
+}
+
+.banner--scroll{
+    height:8vh;
+    border-bottom:1px solid rgba(211, 211, 211, 0.872);
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.banner--static{
+    border-right: 1px solid rgba(211, 211, 211, 0.872);
+}
+
+.banner--powered{
+    flex:0.1;
+    border-right: 1px solid rgba(211, 211, 211, 0.872);
+   
+}
+
+.powered{
+    font-size: 0.8rem;
+}
+
+.powered--logo{
+    font-size: 0.8rem;
+}
+
+.banner--forex{
+    flex:0.9;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:pink; 
+    
+} */

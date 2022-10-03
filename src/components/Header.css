@@ -1,0 +1,114 @@
+.header{
+    width:device-width;
+    height:40vh;
+    padding: 1.2em 0 0 10.5em;
+    background-color: rgb(0, 26, 51);
+}
+
+.header--badge{
+    background-color:rgb(0, 26, 58);
+    width:40%;
+    height: 16vh;
+    padding: 2em;
+    border-left: 9px solid #ffff00;
+    
+}
+
+.img--badge{
+    object-fit: contain;
+    height: 10vh;
+    margin-left: 11em;
+    /* width: 45%; */
+    
+}
+
+.header--content{
+    color: white;
+    margin: 0.5em;
+    text-transform:uppercase;
+    
+    
+}
+
+/* .content--title{
+    background-color: fuchsia;
+} */
+
+.content--text{
+    font-size:0.8rem
+}
+
+.btn--header{
+    display: inline-block;
+    padding:15px 30px;
+    font-weight:bold;
+    font-size:0.8rem;
+    margin-top: 2em;
+    border-radius: 50px;
+    transition: transform 200ms ease-in-out;
+    
+}
+
+.btn--header:hover{
+    transform:scale(1.02);
+    cursor: pointer;
+    
+}
+
+@media(max-width:752px){
+
+    .header{
+        /* width:device-width; */
+        width: 700px;
+        height:25vh;
+
+     
+    }
+
+    
+
+    .header--badge{
+        width:50%;
+        height: 9vh;
+        margin-right: 6em;
+        text-align: center;
+        border-left: none;
+        border-bottom: 9px solid #ffff00;
+        
+        
+    }
+
+    .img--badge{
+        object-fit: contain;
+        height: 5vh;
+        margin-right: 11em;
+        text-align: center;
+        /* width: 45%; */
+        
+    }
+
+    .header--content{
+        color: white;
+        margin: 0.05em;
+        text-transform:uppercase;
+        
+    }
+
+    .content--text{
+        font-size:0.7rem
+    }
+
+    .content--title{
+    font-size: 1.5rem;
+    } 
+
+    .btn--header{
+        display: inline-block;
+        padding:15px 30px;
+        font-weight:bold;
+        font-size:0.7rem;
+        margin-top: 1em;
+        border-radius: 50px;
+        
+    }
+}

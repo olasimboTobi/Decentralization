@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState, useEffect} from 'react'
+import {Routes,Route, useNavigate} from "react-router-dom"
+import {data} from "./data/data"
+import Register from "./components/Register"
+import FormPage from "./components/FormPage"
+import Layout from "./components/Layout"
+
 
 function App() {
+
+  const navigate = useNavigate();
+
+  const register = data
+  //console.log(registers)
+
+  //useEffect(()=>setRegisters(data),[])
+
+  const handleClick = () => ( navigate("/register"))
+
+  const handleLink = (id)=> {
+     navigate(`/form-page/${id}`)
+     
+  }
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" exact element={<Layout onToggled={handleClick} />}/>
+      <Route path="register" element= { <Register registers={register} onLink={handleLink}/>}/>
+      <Route path="form-page/:id" element={ <FormPage registers={register}/>}/>
+    </Routes>
+      
   );
 }
 
