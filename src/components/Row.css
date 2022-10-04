@@ -49,8 +49,8 @@
     font-weight: bold;
     border-radius: 50px;
     font-size:1rem;
+    border: 2px solid #27415a;
     transition: background-color 200ms ease-in-out;
-    /* color: #fff; */
 }
 
 .row--btn:hover{

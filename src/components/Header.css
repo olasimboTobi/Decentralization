@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .header{
-    width:device-width;
+    width: device-width;
+    font-family: 'poppins', sans-serif;
     height:40vh;
     padding: 1.2em 0 0 10.5em;
     background-color: rgb(0, 26, 51);
 }
 
 .header--badge{
-    background-color:rgb(0, 26, 58);
+    background-color:rgb(0, 26, 51);
+    font-family: 'poppins', sans-serif;
     width:40%;
     height: 16vh;
     padding: 2em;
-    border-left: 9px solid #ffff00;
+    border-left: 9px solid #e9d16f;
     
 }
 
@@ -18,11 +21,10 @@
     object-fit: contain;
     height: 10vh;
     margin-left: 11em;
-    /* width: 45%; */
-    
 }
 
 .header--content{
+    font-family: 'poppins', sans-serif;
     color: white;
     margin: 0.5em;
     text-transform:uppercase;
@@ -30,11 +32,8 @@
     
 }
 
-/* .content--title{
-    background-color: fuchsia;
-} */
-
 .content--text{
+    font-family: 'poppins', sans-serif;
     font-size:0.8rem
 }
 
@@ -45,6 +44,7 @@
     font-size:0.8rem;
     margin-top: 2em;
     border-radius: 50px;
+    border: 2px solid #27415a;
     transition: transform 200ms ease-in-out;
     
 }
@@ -73,7 +73,7 @@
         margin-right: 6em;
         text-align: center;
         border-left: none;
-        border-bottom: 9px solid #ffff00;
+        border-bottom: 9px solid #e9d16f;
         
         
     }

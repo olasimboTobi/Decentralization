@@ -31,8 +31,7 @@ const Layout = ({onToggled}) => {
                 <Row  logo='https://cronocrypto.com/index_files/holding-wrench.png' text='clear error' onToggled={onToggled}/>
             </div> 
             <Footer  logo="https://cronocrypto.com/index_files/ser_icon_1.png"/>
-            <FooterDate/> 
-            
+            <FooterDate/>
         </div>
     )
 }
