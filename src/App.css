@@ -1,8 +1,10 @@
+
 .container--row {
   /* background-color:pink; */
   display: flex;
+  padding-top: 0;
   flex-wrap: wrap;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
  
 }
@@ -10,6 +12,7 @@
 
 @media(max-width:690px){
   .container--row {
+    padding-top: 0;
     display: flex;
     justify-content:center;
     align-content:center;
