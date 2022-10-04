@@ -28,7 +28,7 @@ function App() {
     <Routes>
       <Route path="/" exact element={<Layout onToggled={handleClick} />}/>
       <Route path="register" element= { <Register registers={register} onLink={handleLink}/>}/>
-      <Route path="form-page/:id" element={ <FormPage registers={register}/>}/>
+      <Route path="form-page/:id" element={ <FormPage/>}/>
     </Routes>
       
   );

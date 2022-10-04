@@ -8,13 +8,16 @@
 }
 
 
-@media(max-width:690px){
+@media(max-width:870px){
   .container--row {
     display: flex;
+    flex-direction:column;
     justify-content:center;
-    align-content:center;
+    align-content:space-around;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
+    padding-right:2em;
+    /* background-color:pink; */
     margin: 0 auto;
    
   }

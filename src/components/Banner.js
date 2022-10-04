@@ -12,10 +12,10 @@ function Banner() {
           <div className='banner--powered'>
             <p className='powered'>Powered by</p>
             <div style={{width:'30px', height:'30px', display: "flex", gap: 3, align: "center"}}>
-              <img clasName="logo-picture" src='https://www.drupal.org/files/project-images/39501128-e66e2a18-4d6d-11e8-9e16-88655102da6c.png' width='100' height='20'/>
+              <a href="https://coinmarketcap.com/"><img src='https://www.drupal.org/files/project-images/39501128-e66e2a18-4d6d-11e8-9e16-88655102da6c.png' width='100' height='20'/></a>
             </div>
           </div>
-          <Marquee pauseOnHover speed='100'>
+          <Marquee pauseOnHover speed='35'>
             <div className="banner--forex">
                 <Forex />
             </div>
