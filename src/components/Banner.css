@@ -6,7 +6,6 @@
 
 .banner--scroll, .banner--static{
     display: flex;
-    /* border-bottom: 1px solid rgb(242, 235, 235); */
     border-top: 1px solid rgb(247, 241, 241);
 }
 .logo-picture{
@@ -31,38 +30,6 @@
 
 }
 
-.banner--scroll > .ticker{
-    height : fit-content;
-    margin-left: 150px;
-    border-left: 1px solid rgb(247, 241, 241);
-    width:100%;
-    /* animation: infinite */
-    
-}
-
-/* .ticker div{
-    animation: ticker 8s linear infinite;
-} */
-
-
-/* @keyframes ticker {
-    0% {
-      transform: translate(0, 0);
-    }
-    100% {
-      transform: translate(-100%, 0);
-    }
-  }  */
-
-  /* .ticker {
-    animation-play-state: running;
-    animation: ticker 2s linear infinite;
-  }  */
-
-  /* .ticker:hover {
-    animation-play-state: paused;
-  }  */
-
 .banner--scroll div{
     padding-top:1.5px;
     padding-left: 7px;
@@ -72,6 +39,38 @@
 
 .banner--static{
     border-left: 1px solid red;
+}
+
+@media(max-width:1024px){
+    .banner {
+        height:12vh;
+    } 
+}
+
+@media(max-width:714px){
+    .banner {
+        height:12vh;
+        /* margin-bottom: 1em; */
+    } 
+}
+
+
+@media(max-width:540px){
+    .banner {
+        height:9vh;
+    }
+}
+
+@media(max-width:375px){
+    .banner {
+        height:9vh;
+    }
+}
+
+@media(max-width:360px){
+    .banner {
+        height:9vh;
+    }
 }
 
 

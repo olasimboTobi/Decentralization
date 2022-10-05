@@ -235,16 +235,14 @@ function FormPage() {
       },
      
   ];
-  //console.log(register)
-  const {id} = useParams();
-  console.log(id)
+  
+  const {newTitle, id} = useParams();
   const data = register.find(reg => reg.id === Number(id))
   const url = data.url
   const title = data.title
   const [name, setName] = useState("")
   const [val, setVal] = useState("")
   
-  //console.log(data)
   return (
     
     <div className="form--container">

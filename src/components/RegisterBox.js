@@ -3,7 +3,7 @@ import "./RegisterBox.css"
 
 function RegisterBox({ id, url, title, onLink}) {
   return (
-    <div className="registerBox" onClick={(e)=> onLink(id)}>
+    <div className="registerBox" onClick={(e)=> onLink(title, id)}>
        <img src={url} alt={title} className="register--logo"/>
        <h2 className="register--title">{title}</h2>
     </div>

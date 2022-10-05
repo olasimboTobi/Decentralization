@@ -1,7 +1,6 @@
 import React from 'react'
 import './Banner.css'
 import Forex from './Forex'
-// import Ticker from 'react-ticker'
 import Marquee from "react-fast-marquee"
 
 
@@ -20,7 +19,7 @@ function Banner() {
                 <Forex />
             </div>
           </Marquee>
-        </div>s
+        </div>
        
     </div>
   )

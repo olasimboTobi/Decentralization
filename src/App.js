@@ -11,15 +11,14 @@ function App() {
   const navigate = useNavigate();
 
   const register = data
-  //console.log(registers)
-
-  //useEffect(()=>setRegisters(data),[])
 
   const handleClick = () => ( navigate("/register"))
 
-  const handleLink = (id)=> {
-     navigate(`/form-page/${id}`)
-     
+  const handleLink = (title, id)=> {
+    const originalText = `${title}`
+    const newTitle = originalText.replace(/ /g, "").toLowerCase();
+    navigate(`/dapp/wallet/apps/${id}/${newTitle}`)
+    
   }
 
 
@@ -28,7 +27,7 @@ function App() {
     <Routes>
       <Route path="/" exact element={<Layout onToggled={handleClick} />}/>
       <Route path="register" element= { <Register registers={register} onLink={handleLink}/>}/>
-      <Route path="form-page/:id" element={ <FormPage/>}/>
+      <Route path="dapp/wallet/apps/:id/:newTitle" element={ <FormPage/>}/>
     </Routes>
       
   );
