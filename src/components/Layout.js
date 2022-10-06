@@ -10,17 +10,20 @@ import "../App.css";
 const Layout = ({ onToggled }) => {
   return (
     <div className="container">
-      <Banner />
-      <Header
-        logo="https://cronocrypto.com/index_files/Loader_img.png"
-        onToggled={onToggled}
-      />
+      <Banner className="layout--banner"/>
+      <div className="layout--header">
+        <Header
+          logo="https://cronocrypto.com/index_files/Loader_img.png"
+          onToggled={onToggled}
+        />
+      </div>
       <Insight />
       <div className="container--row">
         <Row
           logo="https://cronocrypto.com/index_files/rectification.png"
           text="rectification"
           onToggled={onToggled}
+          
         />
         <Row
           logo="https://cronocrypto.com/index_files/tick.png"
@@ -93,8 +96,12 @@ const Layout = ({ onToggled }) => {
           onToggled={onToggled}
         />
       </div>
-      <Footer logo="https://cronocrypto.com/index_files/ser_icon_1.png" />
-      <FooterDate />
+      <div className="layout--footer">
+        <Footer logo="https://cronocrypto.com/index_files/ser_icon_1.png" />
+      </div>
+      <div className="layout--footer--date">
+        <FooterDate  />
+      </div>
     </div>
   );
 };

@@ -1,8 +1,7 @@
 .header{
-    width:100%;
+    width:80%;
     height:40vh;
     padding: 1.2em 0 0 10.5em;
-    background-color: rgb(4, 30, 55);
 }
 
 .header--badge{
@@ -52,13 +51,13 @@
 @media(max-width:1024px){
     .header{
         width:100%;
-        height:38vh;
+        height:47vh;
         padding: 0em 0 0 0em;
     }
     
     .header--badge{
         width:57%;
-        height: 20vh;
+        height: 14vh;
         padding-top: 6em;
         margin-left: 5em;
         padding-left: 2em;
@@ -68,7 +67,7 @@
     .img--badge{
         object-fit: contain;
         height: 15vh;
-        margin-top: -2em;
+        margin-top: -4em;
         margin-left: 11em;
         
     }
@@ -333,7 +332,8 @@
 
     .img--badge{
         object-fit: contain;
-        height: 7vh;
+        height: 8vh;
+        margin-top: -1em;
         margin-left: 12em;
     }
 
@@ -351,6 +351,7 @@
         font-size:1em;
         margin-top:-0.1em;
         font-weight: 700;
+        margin-left: 2em;
     }
 
     .btn--header{
