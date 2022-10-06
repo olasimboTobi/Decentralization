@@ -8,7 +8,7 @@
 
 @media(max-width:712px){
     .footer--date{
-        font-size:1rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -30,8 +30,8 @@
     }
 
     .footer--date > p{
-        font-size:0.8em;
-        margin-left: 7em;
+        font-size:0.6em;
+        margin-left: 5em;
     }
 }
 
@@ -54,32 +54,25 @@
 }
 
 @media(max-width:414px){
-    .footer--date{
-        text-align: start;
-        padding-top: 1em;
-        width:100%;
-        height:4vh;
-    }
 
-    .footer--date > p{
-        margin-left: 2em;
-    }
-    
-}
-
-@media(max-width:412px){
     .footer--date{
+        text-align: center;
         padding-top: 1em;
-        padding-left: 4em;
         width:100%;
         height:5vh;
     }
+
+    .footer--date > p{
+        margin-left: -8em;
+        font-size:0.7em;
+    }
 }
 
-@media(max-width:412px){
+
+
+/* @media(max-width:412px){
     .footer--date{
         background-color:#ffff00;
-        /* text-align: center; */
         padding-top: 1em;
         margin-left: -4em;
         width:100%;
@@ -90,11 +83,18 @@
     .footer--date > p{
         margin-left: 9em;
     }
-}
+}  */
 
 @media(max-width:393px){
+    .footer--date{
+        text-align: start;
+        padding-top: 1em;
+        width:100%;
+        height:4vh;
+    }
+
     .footer--date > p{
-        margin-left: 9em;
+        margin-left: 0.8em;
     }
 }
 
@@ -107,9 +107,55 @@
     }
 
     .footer--date > p{
-        margin-left: 9em;
+        margin-left: 0.8em;
     }
     
+}
+
+@media(max-width:375px){
+
+    .footer--date{
+        text-align: center;
+        padding-top: 2em;
+        width:100%;
+        height:5vh;
+    }
+
+    .footer--date > p{
+        margin-left: -7em;
+        font-size:0.7em;
+    }
+}
+
+
+@media(max-width:360px){
+
+    .footer--date{
+        text-align: start;
+        padding-top: 1em;
+        width:100%;
+        height:4vh;
+    }
+
+    .footer--date > p{
+        margin-left: 0.4em;
+        font-size:0.9rem;
+    }
+}
+
+@media(max-width:320px){
+
+    .footer--date{
+        text-align: start;
+        padding-top: 1em;
+        width:100%;
+        height:4vh;
+    }
+
+    .footer--date > p{
+        margin-left: -2em;
+        font-size:0.9rem;
+    }
 }
 
 @media(max-width:280px){
@@ -121,6 +167,7 @@
     }
 
     .footer--date > p{
-        margin-left: 7em;
+        text-align:center;
+        margin-left: -9em;
     }
 }

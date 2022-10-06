@@ -9,6 +9,19 @@
     color:rgb(0, 26, 51);
 }
 
+@media(max-width:912px){
+    .insight{
+        width:80%;
+        margin: 0 auto;
+        padding-left: 0.8em;
+        padding-top: 2em;
+        height:20vh;
+        font-size:1.1rem;
+        text-align: center;
+        margin-bottom:-6em;
+    }
+}
+
 @media(max-width:870px){
     .insight{
         margin: 0 auto;
@@ -60,7 +73,8 @@
     .insight{
         width:70%;
         padding-top: 1em;
-        margin-bottom: 2em;
+        margin-top: 2em;
+        margin-bottom: 5em;
         height:15vh;
         font-size:0.9rem;
         text-align: center;
@@ -69,22 +83,48 @@
 
 @media(max-width:414px){
     .insight{
-        margin: 0 auto;
-        padding-left: 0px;
-        padding-top: 1em;
+        width:80%;
+        margin-top: 1em;
+        margin-bottom: 3em;
         height:20vh;
-        font-size:0.8rem;
+        font-family: 'Poppins', sans-serif;
+        font-size:1.1rem;
         text-align: center;
     }  
 }
 
 @media(max-width:375px){
     .insight{
-        margin: 0 auto;
-        padding-left: 0px;
-        padding-top: 1em;
+        width:80%;
+        margin-top: 1em;
+        margin-bottom: 6em;
         height:20vh;
-        font-size:0.8rem;
+        font-family: 'Poppins', sans-serif;
+        font-size:1.1rem;
+        text-align: center;
+    }
+}
+
+@media(max-width:360px){
+    .insight{
+        width:80%;
+        margin-top: 1em;
+        margin-bottom: 6em;
+        height:20vh;
+        font-family: 'Poppins', sans-serif;
+        font-size:1.1rem;
+        text-align: center;
+    }
+}
+
+@media(max-width:320px){
+    .insight{
+        width:80%;
+        margin-top: 1em;
+        margin-bottom: 8em;
+        height:20vh;
+        font-family: 'Poppins', sans-serif;
+        font-size:1.1rem;
         text-align: center;
     }
 }
